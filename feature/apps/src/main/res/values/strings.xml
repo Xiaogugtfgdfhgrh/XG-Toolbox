@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+    <string name="apps_title">应用</string>
+    <string name="apps_meta">%1$d 个 · %2$d 个冻结</string>
+    <string name="apps_frozen_badge">%1$d 个已冻结</string>
+    <string name="apps_search_placeholder">搜索名称或包名</string>
+    <string name="apps_tools_batch">批量</string>
+    <string name="apps_action_refresh">刷新</string>
+    <string name="apps_action_reload">重新加载</string>
+    <string name="apps_action_select_all">全选 / 清空</string>
+    <string name="apps_action_clear_filter">清除搜索与筛选</string>
+    <string name="apps_empty_all">未读取到应用</string>
+    <string name="apps_empty_filtered">没有匹配的应用</string>
+    <string name="apps_need_root_note">未获得 Root 授权：当前仅可浏览，冻结/卸载/批量/模块/Android ID 等写操作不可用</string>
+    <string name="apps_readonly_note">只读模式已开启：写操作全部不可用，可在设置中关闭只读模式</string>
+    <string name="apps_list_footer">共 %1$d 个应用</string>
+    <string name="apps_filter_all">全部</string>
+    <string name="apps_filter_user">用户</string>
+    <string name="apps_filter_system">系统</string>
+    <string name="apps_filter_frozen">已冻结</string>
+    <string name="apps_sort_label">排序 · %1$s</string>
+    <string name="apps_sort_name">名称</string>
+    <string name="apps_sort_memory">内存</string>
+    <string name="apps_sort_installed">安装时间</string>
+    <string name="apps_badge_frozen">已冻结</string>
+    <string name="apps_badge_not_running">未运行</string>
+    <string name="apps_badge_unauthorized">未授权</string>
+    <string name="apps_badge_unavailable">不可用</string>
+    <string name="apps_value_loading">读取中…</string>
+    <string name="apps_value_unknown">未知</string>
+    <string name="apps_select_select">选择 %1$s</string>
+    <string name="apps_select_unselect">取消选择 %1$s</string>
+
+    <string name="apps_long_press_menu">长按打开应用操作菜单</string>
+    <string name="apps_context_menu_details">应用详情</string>
+    <string name="apps_context_menu_copy_package">复制包名</string>
+    <string name="apps_toast_package_copied">已复制 %1$s 的包名</string>
+    <string name="apps_toast_info_copied">应用信息已复制</string>
+    <string name="apps_toast_copy_failed">复制失败：未确认剪贴板写入</string>
+    <string name="apps_batch_copy_failed">复制失败：未确认剪贴板写入</string>
+
+    
+    <string name="apps_field_signature">签名 SHA-256</string>
+    <string name="apps_signature_multi">多签名 (%1$d)</string>
+    <string name="apps_field_source_dir">安装目录</string>
+    <string name="apps_field_data_dir">数据目录</string>
+    <string name="apps_field_native_lib">运行库目录</string>
+    <string name="apps_field_version">版本</string>
+    <string name="apps_field_installed_at">安装时间</string>
+    <string name="apps_field_updated_at">更新时间</string>
+    <string name="apps_field_primary_abi">运行 ABI</string>
+    <string name="apps_field_memory">内存</string>
+    <string name="apps_field_traffic">流量 · 30 天</string>
+    <string name="apps_memory_not_running">进程未运行</string>
+    <string name="apps_traffic_unauthorized">未授权</string>
+    <string name="apps_traffic_value">↑ %1$s · ↓ %2$s</string>
+    <string name="apps_traffic_window">%1$d 天</string>
+    <string name="apps_action_freeze">冻结</string>
+    <string name="apps_action_unfreeze">解冻</string>
+    <string name="apps_action_uninstall">卸载</string>
+    <string name="apps_action_copy_info">复制信息</string>
+    <string name="apps_error_code">错误码 %1$d</string>
+    <string name="apps_error_dismiss">关闭原因</string>
+
+    
+    <string name="apps_abi_section_title">运行 ABI 策略</string>
+    <string name="apps_abi_64">64 位</string>
+    <string name="apps_abi_32">32 位</string>
+    <string name="apps_abi_apk_libs">APK 内含运行库：%1$s</string>
+    <string name="apps_abi_rule">切换会重装当前应用（使用其已安装 APK 内的运行库）；不会修改 APK 文件，也不会绕过签名校验。</string>
+                <string name="apps_abi_no_native">无需切换 ABI：应用未包含本地库</string>
+    <string name="apps_abi_switch_available">可直接用已安装 APK 切换运行 ABI（会重装当前应用）。</string>
+    <string name="apps_abi_cannot_switch">无法切换：%1$s</string>
+    <string name="apps_abi_switching">正在重装并切换 ABI…</string>
+    <string name="apps_abi_confirm_action">重装并切换</string>
+    <string name="apps_abi_unsupported">该应用未包含 %1$s 运行库，无法切换</string>
+    <string name="apps_abi_state_missing">ABI 状态尚未就绪，请重试</string>
+    <string name="apps_abi_same">当前已运行该 ABI</string>
+    <string name="apps_abi_confirm_title">切换运行 ABI？</string>
+    <string name="apps_abi_confirm_body">将重装「%1$s」以把运行 ABI 从 %2$s 切换为 %3$s；部分应用需重启后生效。</string>
+        
+    
+    <string name="apps_uninstall_title">卸载应用？</string>
+    <string name="apps_uninstall_body">将移除「%1$s」（%2$s，体积 %3$s）及其应用数据。</string>
+    <string name="apps_uninstall_backup_hint">卸载前会备份 APK 到 /data/local/tmp/xg/backups（上限 %1$s）；备份失败或超过上限会中止卸载。</string>
+    <string name="apps_uninstall_too_large">当前体积已超过备份上限，卸载会被中止（无法撤销）。</string>
+    <string name="apps_action_uninstall_confirm">卸载</string>
+    <string name="apps_undo_title">已卸载「%1$s」</string>
+    <string name="apps_undo_window">5 秒内可撤销，撤销会从备份恢复 APK</string>
+    <string name="apps_action_undo">撤销</string>
+
+    
+    <string name="apps_modules_title">模块</string>
+    <string name="apps_modules_meta">%1$d 个已安装</string>
+    <string name="apps_modules_empty">未检测到已安装模块</string>
+    <string name="apps_module_meta">%1$s · %2$s</string>
+    <string name="apps_module_enabled">启用</string>
+    <string name="apps_module_disabled">停用</string>
+    <string name="apps_module_pending_remove">待卸载</string>
+    <string name="apps_module_switch_desc">启用或停用模块 %1$s</string>
+    <string name="apps_module_remove">卸载模块 %1$s</string>
+    <string name="apps_module_remove_title">卸载模块？</string>
+    <string name="apps_module_remove_body">将移除「%1$s」（%2$s，id %3$s）的模块目录及更新目录；卸载后需重启生效。</string>
+    <string name="apps_remove_confirm">卸载</string>
+
+    
+    <string name="apps_android_id_title">Android ID</string>
+    <string name="apps_android_id_meta">全局 / 单应用 SSAID</string>
+    <string name="apps_android_id_intro">Android ID（SSAID）按应用隔离存储；修改前请确认目标与影响范围。所有写入均经后端回读校验。</string>
+    <string name="apps_android_id_global">全局 Android ID</string>
+    <string name="apps_android_id_entries_loading">正在读取已生成 SSAID 条目…</string>
+    <string name="apps_android_id_entries">将重写 %1$d 个已生成应用（并写入全局 android_id）</string>
+    <string name="apps_android_id_global_outcome">已重写 %1$d / %2$d 个 SSAID 条目</string>
+    <string name="apps_android_id_global_confirm_title">重写全部 Android ID？</string>
+    <string name="apps_android_id_global_confirm_body">将重写 settings_ssaid.xml 中 %1$d 个已生成应用，并写入全局 android_id %2$s；操作不可撤销，需要重启设备生效。</string>
+    <string name="apps_android_id_global_confirm_action">重写并写入</string>
+    <string name="apps_android_id_global_reboot">重启后生效：请重启设备使全局 Android ID 与全部 SSAID 条目生效。</string>
+    <string name="apps_android_id_global_scope">全局写入会同时重写 settings_ssaid.xml 中全部已生成 SSAID 条目，并写入 settings secure android_id；重启后整体生效。</string>
+    <string name="apps_android_id_generate">随机生成</string>
+    <string name="apps_android_id_writing">写入中…</string>
+    <string name="apps_android_id_write_verify">写入并回读</string>
+    <string name="apps_android_id_written">已写入</string>
+    <string name="apps_android_id_global_restart">写入后需重启 system_server（或整机）才能整体生效；部分应用需重启后生效。</string>
+    <string name="apps_android_id_invalid">格式不合法：必须是 16 位小写十六进制（0-9a-f）</string>
+    <string name="apps_android_id_regex">校验规则：^[0-9a-f]{16}$</string>
+    <string name="apps_android_id_placeholder">例如 0123456789abcdef</string>
+    <string name="apps_android_id_ssaid">单应用 SSAID 重置</string>
+    <string name="apps_ssaid_apps_title">选择用户应用</string>
+    <string name="apps_ssaid_apps_empty">未检测到用户应用</string>
+    <string name="apps_ssaid_current_label">当前 SSAID</string>
+    <string name="apps_ssaid_current_none">无记录（系统将在应用下次生成时创建）</string>
+    <string name="apps_ssaid_current_error">读取当前 SSAID 失败：%1$s</string>
+    <string name="apps_ssaid_select">选择</string>
+    <string name="apps_ssaid_selected">已选择</string>
+    <string name="apps_ssaid_change_target">更换</string>
+    <string name="apps_ssaid_no_target">请先选择目标应用</string>
+    <string name="apps_ssaid_reset">清除数据并重置 SSAID</string>
+    <string name="apps_ssaid_reset_badge">已重置</string>
+    <string name="apps_ssaid_ok">已移除 SSAID 记录；系统将重新生成，重启后生效。</string>
+    <string name="apps_ssaid_confirm_title">清除数据并重置 SSAID？</string>
+    <string name="apps_ssaid_confirm_body">将重置「%1$s」（%2$s）的 SSAID。执行过程：备份 settings_ssaid.xml → force-stop → 移除该包节点并原子替换（保留 0600/system:system）→ pm clear（清空该应用全部数据）→ 由系统重新生成 → 提示重启。</string>
+    <string name="apps_ssaid_confirm_action">清除数据并重置</string>
+    <string name="apps_ssaid_capability_process">执行路径：备份 settings_ssaid.xml → force-stop → 移除该包对应节点并原子替换（保留 0600、system:system）→ pm clear 二次确认 → 系统重新生成 SSAID → 需重启生效。</string>
+    <string name="apps_ssaid_capability_limit">能力限制：该文件为二进制 ABX 格式或被 system_server 缓存时无法安全文本编辑，后端会拒绝执行并保留原值；本功能只重置记录，不接受指定 ID；依赖 GSF/厂商 ID 的应用重置 SSAID 无意义；LSPosed hook 方案不在本工程范围。</string>
+
+    
+    <string name="apps_batch_title">批量操作</string>
+    <string name="apps_batch_meta_selected">已选 %1$d 个应用</string>
+    <string name="apps_batch_close">关闭</string>
+    <string name="apps_batch_step_select">选择</string>
+    <string name="apps_batch_step_preflight">预检</string>
+    <string name="apps_batch_step_execute">执行</string>
+    <string name="apps_batch_step_receipt">回执</string>
+    <string name="apps_batch_selected">已选 %1$d 个</string>
+    <string name="apps_batch_to_preflight">下一步：预检</string>
+    <string name="apps_batch_prev">上一步</string>
+    <string name="apps_batch_action_freeze">批量冻结</string>
+    <string name="apps_batch_action_unfreeze">批量解冻</string>
+    <string name="apps_batch_action_uninstall">批量卸载</string>
+    <string name="apps_batch_action_autostart">禁自启</string>
+    <string name="apps_batch_action_android_id">批量重置 SSAID</string>
+    <string name="apps_batch_android_id_note">批量重置会移除 SSAID 记录，由系统重新生成；不接受指定 ID，也不清理应用数据。</string>
+    <string name="apps_batch_preflight_waiting">等待预检…</string>
+    <string name="apps_batch_targets">%1$d 个目标</string>
+    <string name="apps_batch_estimate">预计耗时 %1$s</string>
+    <string name="apps_batch_preflight_ok">预检通过：Root、磁盘、保护名单、依赖冲突均无阻断项</string>
+    <string name="apps_batch_blocked">存在 %1$d 个阻断项，请先处理后再执行</string>
+    <string name="apps_batch_issue_blocking">阻断</string>
+    <string name="apps_batch_issue_warn">提醒</string>
+    <string name="apps_batch_global_issue">全局</string>
+    <string name="apps_batch_recheck">重新预检</string>
+    <string name="apps_batch_start">开始执行</string>
+    <string name="apps_batch_running_title">正在执行批量操作</string>
+    <string name="apps_batch_current">当前：%1$s</string>
+    <string name="apps_batch_starting">正在启动…</string>
+    <string name="apps_batch_ok_count">成功 %1$d</string>
+    <string name="apps_batch_failed_count">失败 %1$d</string>
+    <string name="apps_batch_skipped_count">跳过 %1$d</string>
+    <string name="apps_batch_copy_results">复制逐条结果</string>
+    <string name="apps_batch_copied">已复制到剪贴板</string>
+    <string name="apps_batch_undo">撤销本次</string>
+    <string name="apps_batch_undo_running">正在撤销…</string>
+    <string name="apps_batch_undo_ok">已按快照逆序撤销本次批量操作</string>
+    <string name="apps_batch_expand_stderr">展开失败详情</string>
+    <string name="apps_batch_collapse_stderr">收起失败详情</string>
+    <string name="apps_batch_status_ok">成功</string>
+    <string name="apps_batch_status_failed">失败</string>
+    <string name="apps_batch_status_skipped">跳过</string>
+    <string name="apps_batch_exec_failed">批量执行中断：%1$s</string>
+    <string name="apps_batch_receipt_unavailable">回执不可用：未取到本次批量回执，无法撤销；逐条结果仍可复制。</string>
+
+    
+    <string name="apps_reboot_title">重启生效</string>
+    <string name="apps_reboot_confirm">重启</string>
+    <string name="apps_reboot_later">稍后</string>
+    <string name="apps_reboot_module">模块变更已写入，重启设备后生效。</string>
+        <string name="apps_reboot_ssaid">SSAID 记录已重置，重启设备后生效。</string>
+
+    
+    <string name="apps_action_clear_cache">清除缓存</string>
+    <string name="apps_action_clear_data">清除数据</string>
+    <string name="apps_clear_cache_title">清除缓存？</string>
+    <string name="apps_clear_cache_body">将删除「%1$s」的缓存文件，不删除账号数据。</string>
+    <string name="apps_clear_cache_confirm">清除缓存</string>
+    <string name="apps_clear_data_title">清除应用数据？</string>
+    <string name="apps_clear_data_body">将删除「%1$s」的全部应用数据和登录态，操作不可恢复。</string>
+    <string name="apps_clear_data_confirm">删除数据</string>
+    <string name="apps_clearing">正在执行清除，请稍候…</string>
+    <string name="apps_toast_clear_cache_ok">%1$s：缓存已清除</string>
+    <string name="apps_toast_clear_data_ok">%1$s：应用数据已清除</string>
+    <string name="apps_toast_frozen">已冻结「%1$s」</string>
+    <string name="apps_toast_unfrozen">已解冻「%1$s」</string>
+    <string name="apps_toast_uninstalled">已卸载「%1$s」</string>
+    <string name="apps_toast_undo_ok">已恢复「%1$s」</string>
+    <string name="apps_toast_undo_failed">撤销失败：%1$s</string>
+    <string name="apps_toast_need_root">需要 Root 授权后才能执行该操作</string>
+    <string name="apps_toast_readonly">只读模式已开启，写操作不可用</string>
+    <string name="apps_toast_select_first">请先选择至少一个应用</string>
+    <string name="apps_toast_abi_switch_ok">「%1$s」已切换为 %2$s 安装</string>
+            <string name="apps_toast_batch_done">批量完成：成功 %1$d · 失败 %2$d · 跳过 %3$d</string>
+    <string name="apps_toast_android_id_ok">全局 Android ID 已更新：重写 %1$d / %2$d 个应用，重启后生效</string>
+    <string name="apps_toast_ssaid_ok">已重置 %1$s 的 SSAID 记录</string>
+    <string name="apps_toast_module_enabled">已启用「%1$s」</string>
+    <string name="apps_toast_module_disabled">已停用「%1$s」</string>
+    <string name="apps_toast_module_removed">已卸载「%1$s」</string>
+    <string name="apps_toast_reboot_sent">已发送重启请求</string>
+    <string name="apps_toast_reboot_failed">重启失败：%1$s</string>
+</resources>

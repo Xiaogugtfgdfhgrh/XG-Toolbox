@@ -1,0 +1,21 @@
+{
+  "packages": [
+    "com.bytedance.sdk",
+    "com.qq.e",
+    "com.google.android.gms.ads",
+    "com.applovin",
+    "com.unity3d.ads",
+    "com.facebook.ads",
+    "com.mbridge",
+    "com.mintegral",
+    "com.anythink",
+    "com.pangle"
+  ],
+  "libs": [
+    "libpangle",
+    "libmsaoaidsec",
+    "libUMeng",
+    "libBugly",
+    "libgdt"
+  ]
+}

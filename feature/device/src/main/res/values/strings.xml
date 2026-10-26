@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 设备页文案（前缀 device_，避免与其他模块资源重名；DOMAIN-APIS §7）。 -->
+<resources>
+    <string name="device_title">设备</string>
+    <string name="device_meta">%1$d 项字段 · %2$d 组</string>
+    <string name="device_readonly">只读</string>
+
+    <string name="device_copy_all">复制全部</string>
+    <string name="device_copy_all_done">已复制全部字段（Markdown 表格）</string>
+    <string name="device_copy_group">复制整组</string>
+    <string name="device_copy_group_done">已复制整组字段</string>
+    <string name="device_copy_field_done">已复制字段值</string>
+
+    <string name="device_search_placeholder">名称、属性键或值</string>
+    <string name="device_clear_search">清空搜索</string>
+    <string name="device_empty_title">没有匹配的字段</string>
+    <string name="device_empty_hint">换个关键词，例如「MAC」「补丁」或「ro.build」</string>
+    <string name="device_search_result">共 %1$d 项命中 · 点击分组查看并高亮</string>
+
+    <string name="device_group_count">%1$d 项</string>
+    <string name="device_group_match">%1$d 项命中</string>
+
+    <string name="device_detail_meta">%1$d 项字段</string>
+    <string name="device_detail_search_hint">搜索命中已高亮（本组 %1$d 项）</string>
+    <string name="device_refresh">刷新</string>
+
+    <string name="device_badge_unavailable">不可用</string>
+    <string name="device_badge_masked">已脱敏</string>
+    <string name="device_badge_needs_root">需 Root</string>
+    <string name="device_badge_limited">受限</string>
+    <string name="device_note_default">该字段当前不可读取</string>
+
+    <string name="device_summary_unlocked">已解锁</string>
+    <string name="device_summary_rooted">已 Root</string>
+    <string name="device_summary_unknown">读取中</string>
+
+    <string name="device_load_failed">设备信息采集失败</string>
+    <string name="device_empty_data">未采集到设备字段</string>
+
+    <string name="device_copy_section_title">设备信息</string>
+    <string name="device_copy_table_group">分组</string>
+    <string name="device_copy_table_name">名称</string>
+    <string name="device_copy_table_key">属性键</string>
+    <string name="device_copy_table_value">值</string>
+
+    <string name="device_serial_edit">编辑序列号</string>
+    <string name="device_serial_edit_title">修改设备序列号</string>
+    <string name="device_serial_edit_current">当前序列号</string>
+    <string name="device_serial_edit_new_value">新序列号</string>
+    <string name="device_serial_edit_placeholder">请输入新的序列号</string>
+    <string name="device_serial_edit_error_empty">序列号不能为空</string>
+    <string name="device_serial_edit_error_invalid">序列号需为 1–32 位字母、数字或 . _ -</string>
+    <string name="device_serial_edit_error_same">新序列号与当前序列号相同</string>
+    <string name="device_serial_edit_risk_title">修改风险</string>
+    <string name="device_serial_edit_risk_root">需要 Root 权限，通过系统属性工具写入。</string>
+    <string name="device_serial_edit_risk_reboot">部分系统接口需重启后生效；未写入开机持久化脚本时，重启后可能恢复原值。</string>
+    <string name="device_serial_edit_risk_account">修改序列号可能影响账号绑定、保修与部分应用校验，请自行评估。</string>
+    <string name="device_serial_edit_capability_checking">正在检查修改能力…</string>
+    <string name="device_serial_edit_capability_supported">当前环境支持修改。</string>
+    <string name="device_serial_edit_capability_supported_with_path">当前环境支持修改（写入方式：%1$s）。</string>
+    <string name="device_serial_edit_capability_unsupported">当前环境不支持修改：%1$s</string>
+    <string name="device_serial_edit_capability_unsupported_generic">缺少所需条件</string>
+    <string name="device_serial_edit_capability_failed">检测修改能力失败：%1$s</string>
+    <string name="device_serial_edit_capability_failed_generic">无法检测修改能力</string>
+    <string name="device_serial_edit_confirm">确认修改</string>
+    <string name="device_serial_edit_cancel">取消</string>
+    <string name="device_serial_edit_submitting">正在修改…</string>
+    <string name="device_serial_edit_success">序列号已修改：%1$s → %2$s</string>
+    <string name="device_serial_edit_success_reboot">（部分系统接口需重启后生效）</string>
+    <string name="device_serial_edit_failed">修改失败：%1$s</string>
+    <string name="device_serial_edit_failed_generic">修改序列号失败</string>
+</resources>

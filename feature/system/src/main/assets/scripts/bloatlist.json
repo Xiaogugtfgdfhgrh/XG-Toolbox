@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "updated": "2026-10-25",
+  "note": "内置去广告/预装组件清单（不联网更新）。仅当包名在本机安装且尚未禁用时才会执行 disable-user；恢复命令：pm enable <包名>。risk=高 的项禁用后会影响云同步/备份等系统能力，默认不建议勾选。",
+  "packages": [
+    { "pkg": "com.heytap.browser", "name": "HeyTap 浏览器", "risk": "中", "note": "禁用后网页默认打开方式可能失效" },
+    { "pkg": "com.heytap.market", "name": "HeyTap 应用市场", "risk": "中", "note": "禁用后无法通过官方商店更新应用" },
+    { "pkg": "com.nearme.gamecenter", "name": "游戏中心", "risk": "低", "note": "游戏推荐与广告入口" },
+    { "pkg": "com.heytap.themestore", "name": "HeyTap 主题商店", "risk": "低", "note": "主题与壁纸商店" },
+    { "pkg": "com.oplus.themestore", "name": "OPPO 主题商店", "risk": "低", "note": "与主题商店可能重复" },
+    { "pkg": "com.heytap.quicksearchbox", "name": "全局搜索", "risk": "中", "note": "桌面下拉搜索入口不可用" },
+    { "pkg": "com.coloros.assistantscreen", "name": "负一屏", "risk": "低", "note": "桌面左滑卡片页" },
+    { "pkg": "com.oplus.appdetail", "name": "应用推荐详情", "risk": "低", "note": "应用详情页推荐位" },
+    { "pkg": "com.oplus.globalcollect", "name": "全局信息采集", "risk": "低", "note": "厂商统计采集组件" },
+    { "pkg": "com.oplus.obrain", "name": "AI 推荐服务", "risk": "低", "note": "场景推荐服务" },
+    { "pkg": "com.coloros.video", "name": "ColorOS 视频", "risk": "中", "note": "系统视频应用" },
+    { "pkg": "com.heytap.music", "name": "HeyTap 音乐", "risk": "中", "note": "系统音乐应用" },
+    { "pkg": "com.heytap.cloud", "name": "HeyTap 云服务", "risk": "高", "note": "禁用会影响云同步与备份，默认不建议" },
+    { "pkg": "com.oppo.store", "name": "OPPO 商城", "risk": "低", "note": "官方商城入口" },
+    { "pkg": "com.aiunit.aon", "name": "AI 单元服务", "risk": "中", "note": "部分厂商 AI 功能依赖" },
+    { "pkg": "com.oplus.aiunit", "name": "OPPO AI 单元", "risk": "中", "note": "部分 AI 功能依赖" },
+    { "pkg": "com.android.adservices.api", "name": "Android 广告服务", "risk": "低", "note": "系统广告 ID 与隐私沙盒服务" },
+    { "pkg": "com.miui.msa.global", "name": "MSA 广告服务", "risk": "低", "note": "仅小米/HyperOS 设备命中" },
+    { "pkg": "com.miui.analytics", "name": "MIUI 统计", "risk": "低", "note": "仅小米/HyperOS 设备命中" },
+    { "pkg": "com.xiaomi.mipicks", "name": "小米应用商店", "risk": "中", "note": "仅小米/HyperOS 设备命中" },
+    { "pkg": "com.miui.videoplayer", "name": "小米视频", "risk": "中", "note": "仅小米/HyperOS 设备命中" },
+    { "pkg": "com.miui.player", "name": "小米音乐", "risk": "中", "note": "仅小米/HyperOS 设备命中" },
+    { "pkg": "com.vivo.appstore", "name": "vivo 应用商店", "risk": "中", "note": "仅 vivo 设备命中" },
+    { "pkg": "com.vivo.browser", "name": "vivo 浏览器", "risk": "中", "note": "仅 vivo 设备命中" }
+  ]
+}

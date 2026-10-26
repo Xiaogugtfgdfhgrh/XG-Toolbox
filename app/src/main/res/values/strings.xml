@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小骨工具箱</string>
+
+    <!-- 页面标题（占位页与导航使用；feature 落地后按其自身字符串资源展示） -->
+    <string name="screen_home_title">机况</string>
+    <string name="screen_device_title">设备</string>
+    <string name="screen_apps_title">应用</string>
+    <string name="screen_system_title">系统</string>
+    <string name="screen_security_title">安全</string>
+
+    <!-- 根壳：只读提示条 -->
+    <string name="shell_readonly_banner">只读模式 · 未获得 Root 授权</string>
+    <string name="shell_retry">重新检测</string>
+    <string name="shell_probing">正在检测…</string>
+
+    <!-- 根壳：Root 门禁弹窗 -->
+    <string name="shell_root_gate_title">需要 Root 权限</string>
+    <string name="shell_root_gate_desc">小骨工具箱需要 Root 权限，授权后可读取系统标识、管理应用与清理存储。所有写操作都会单独确认，并记录本地审计日志。</string>
+    <string name="shell_root_gate_scope_1">读取系统属性、存储与网络状态</string>
+    <string name="shell_root_gate_scope_2">管理应用、进程与模块</string>
+    <string name="shell_root_gate_scope_3">执行清理脚本与系统调优</string>
+    <string name="shell_root_gate_primary">重新检测</string>
+    <string name="shell_root_gate_secondary">以只读模式继续</string>
+    <string name="shell_root_gate_note">首次使用需在 Root 管理器中授予授权；未授权时仅展示只读信息。</string>
+    <string name="shell_gate_scheme">检测到 Root 方案 · %1$s %2$s</string>
+    <string name="shell_gate_scheme_hint">检测到的方案：%1$s %2$s</string>
+    <string name="shell_gate_status_combined">%1$s · %2$s</string>
+    <string name="shell_gate_missing_su">未检测到 su 可执行文件（未安装 Magisk / KernelSU / APatch？）</string>
+    <string name="shell_gate_user_rejected">Root 授权被拒绝</string>
+    <string name="shell_gate_timeout">Root 授权超时</string>
+    <string name="shell_gate_policy">系统策略阻止了 Root 授权</string>
+    <string name="shell_gate_selinux">SELinux 阻止了 Root 操作</string>
+
+    <!-- 临时占位页（feature Route 落地后由集成替换） -->
+    <string name="shell_placeholder_meta">占位页</string>
+    <string name="shell_placeholder_body">该页面的功能模块尚未接入，当前为占位。集成阶段会替换为对应 feature 的真实页面。</string>
+</resources>

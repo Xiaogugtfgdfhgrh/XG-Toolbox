@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+      镜像写入前台服务（DEVELOPMENT.md §4.4）：仅在写入分区镜像期间存在，
+      用于保活与展示进度/中止通知，不常驻、不开机自启。
+      FOREGROUND_SERVICE / FOREGROUND_SERVICE_DATA_SYNC 权限由 app 模块统一声明。
+    -->
+    <application>
+        <service
+            android:name="com.xg.toolbox.feature.system.domain.flash.FlashForegroundService"
+            android:exported="false"
+            android:foregroundServiceType="dataSync" />
+    </application>
+
+</manifest>

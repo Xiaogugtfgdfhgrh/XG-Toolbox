@@ -1,0 +1,9 @@
+[
+  { "id": "game-hok",        "name": "王者清理",         "desc": "清理王者荣耀缓存、ano_tmp 标记与日志（不动账号/存档/资源包）", "root": true, "est": "—" },
+  { "id": "game-pubg",       "name": "和平清理",         "desc": "清理和平精英缓存、ano_tmp 标记与日志（不动账号/存档/资源包）", "root": true, "est": "—" },
+  { "id": "game-arena",      "name": "暗区清理",         "desc": "清理暗区突围缓存、ano_tmp 标记与日志（不动账号/存档/资源包）", "root": true, "est": "—" },
+  { "id": "game-delta",      "name": "三角洲清理",       "desc": "清理三角洲行动缓存、ano_tmp 标记与日志（不动账号/存档/资源包）", "root": true, "est": "—" },
+  { "id": "game-codev",      "name": "无畏契约清理",     "desc": "清理无畏契约缓存、ano_tmp 标记与日志（不动账号/存档/资源包）", "root": true, "est": "—" },
+  { "id": "game-res",        "name": "卸载游戏资源清理", "desc": "清理已卸载游戏的 obb 残留（已安装/7 天内修改过的跳过）", "root": true, "est": "—" },
+  { "id": "peacesafe-check", "name": "平安病毒清理",     "desc": "检测并清理 DeviceHub/360nb 残留（先备份）", "root": true, "est": "—" }
+]

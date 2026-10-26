@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_title">设置</string>
+    <string name="settings_root_section">Root</string>
+    <string name="settings_root_status">Root 权限</string>
+    <string name="settings_root_granted">已授权</string>
+    <string name="settings_root_denied">未授权</string>
+    <string name="settings_root_checking">检测中</string>
+    <string name="settings_root_retry">重新检测</string>
+    <string name="settings_autostart">开机自启动</string>
+    <string name="settings_keepalive">后台保活</string>
+    <string name="settings_provision">提权与授权</string>
+    <string name="settings_provision_action">执行</string>
+    <string name="settings_su_section">SU 路径</string>
+    <string name="settings_su_current">当前路径</string>
+    <string name="settings_su_auto">自动</string>
+    <string name="settings_su_input">SU 路径</string>
+    <string name="settings_su_test">测试并保存</string>
+    <string name="settings_su_testing">正在测试</string>
+    <string name="settings_su_restore">恢复自动</string>
+    <string name="settings_hide_section">隐藏自身</string>
+    <string name="settings_hide_self">隐藏自身</string>
+    <string name="settings_hide_action">开始</string>
+    <string name="settings_hide_confirm_title">隐藏自身</string>
+    <string name="settings_hide_confirm_body">将生成新包并卸载当前包。</string>
+    <string name="settings_hide_confirm_action">继续</string>
+    <string name="settings_hide_failed">失败：%1$s</string>
+    <string name="settings_hide_new_package">新包名：%1$s</string>
+    <string name="settings_cancel">取消</string>
+    <string name="settings_appearance_section">外观与背景</string>
+    <string name="settings_background_toggle">自定义背景</string>
+    <string name="settings_background_pick">选择图片</string>
+    <string name="settings_background_change">更换图片</string>
+    <string name="settings_background_importing">正在导入</string>
+    <string name="settings_background_missing">自定义背景文件缺失；请重新选择图片，当前已回退到内置背景。</string>
+    <string name="settings_background_view">查看当前背景</string>
+    <string name="settings_background_view_title">当前背景</string>
+    <string name="settings_background_view_image">背景预览</string>
+    <string name="settings_background_view_close">关闭</string>
+    <string name="settings_background_view_unavailable">预览不可用</string>
+</resources>

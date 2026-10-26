@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 仅 debug 包的测试组件：用于验证应用内广告组件拦截的真实 pm disable/enable 链路；
+         名称故意使用广告 SDK 前缀，release 包不包含。 -->
+    <application>
+        <activity-alias
+            android:name="com.bytedance.sdk.test.XgAdTestAlias"
+            android:enabled="true"
+            android:exported="false"
+            android:targetActivity=".MainActivity" />
+    </application>
+</manifest>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 底部导航固定文案（设计稿五 Tab） -->
+    <string name="xg_tab_home">机况</string>
+    <string name="xg_tab_device">设备</string>
+    <string name="xg_tab_apps">应用</string>
+    <string name="xg_tab_system">系统</string>
+    <string name="xg_tab_security">设置</string>
+
+    <!-- 组件通用动作 -->
+    <string name="xg_action_back">返回</string>
+    <string name="xg_action_copy">复制</string>
+    <string name="xg_copy_content_description">复制%1$s</string>
+    <string name="xg_copied">已复制</string>
+    <string name="xg_copy_state_ready">可复制</string>
+    <string name="xg_copy_state_copied">已复制</string>
+    <string name="xg_copy_state_unavailable">不可复制</string>
+    <string name="xg_action_clear">清除</string>
+    <string name="xg_retry">重试</string>
+
+    <!-- 状态与错误 -->
+    <string name="xg_loading">正在加载</string>
+    <string name="xg_refresh_pull">下拉刷新</string>
+    <string name="xg_refresh_release">松开刷新</string>
+    <string name="xg_refresh_refreshing">正在刷新</string>
+    <string name="xg_refresh_complete">刷新完成</string>
+    <string name="xg_error_title">操作失败</string>
+    <string name="xg_error_code">错误码 %1$d</string>
+    <!-- 列表拖拽排序 -->
+    <string name="xg_reorder_move_up">上移</string>
+    <string name="xg_reorder_move_down">下移</string>
+    <string name="xg_reorder_state">第 %1$d 项，共 %2$d 项，长按拖动排序</string>
+    <string name="xg_context_menu_title">%1$s 操作菜单</string>
+</resources>

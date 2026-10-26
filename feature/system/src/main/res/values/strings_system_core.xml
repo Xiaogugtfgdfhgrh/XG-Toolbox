@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 页面与锚点 -->
+    <string name="sys_core_page_title">系统</string>
+    <string name="sys_core_page_meta">8 系统分组 · 4 项安全能力</string>
+    <string name="sys_core_anchor_optimize">优化</string>
+    <string name="sys_core_anchor_clean">清理</string>
+    <string name="sys_core_anchor_scripts">脚本</string>
+    <string name="sys_core_anchor_perf">性能</string>
+    <string name="sys_core_anchor_display">显示</string>
+    <string name="sys_core_anchor_flash">刷入</string>
+    <string name="sys_core_anchor_processes">进程</string>
+    <string name="sys_core_anchor_terminal">终端</string>
+
+    <!-- 通用动作与状态 -->
+    <string name="sys_core_action_retry">重试</string>
+    <string name="sys_core_action_scan">开始扫描</string>
+    <string name="sys_core_action_rescan">重新扫描</string>
+    <string name="sys_core_action_reload">重新读取</string>
+    <string name="sys_core_action_select_all">全选</string>
+    <string name="sys_core_action_clear_selection">清空选择</string>
+    <string name="sys_core_action_collapse">收起</string>
+    <string name="sys_core_action_clear">清空</string>
+    <string name="sys_core_percent">%1$d%%</string>
+    <string name="sys_core_unknown">—</string>
+    <string name="sys_core_error_unknown">未知错误</string>
+    <string name="sys_core_copied">已复制</string>
+
+    <!-- Root / 只读态 -->
+    <string name="sys_core_root_checking">正在确认 Root 授权…</string>
+    <string name="sys_core_root_readonly_badge">只读</string>
+    <string name="sys_core_root_denied">未获得 Root 授权：%1$s</string>
+    <string name="sys_core_root_unsupported">设备不支持 Root 操作：%1$s</string>
+    <string name="sys_core_root_actions_disabled">执行类操作已停用，可在顶部提示条重新检测。</string>
+    <string name="sys_core_root_reason_no_binary">未检测到 su 可执行文件</string>
+    <string name="sys_core_root_reason_user_rejected">授权被拒绝</string>
+    <string name="sys_core_root_reason_timeout">授权超时</string>
+    <string name="sys_core_root_reason_policy">系统策略阻止</string>
+    <string name="sys_core_root_reason_selinux">SELinux 阻止</string>
+    <string name="sys_core_root_reason_unknown">原因未知</string>
+
+    <!-- 系统优化 -->
+    <string name="sys_core_optimize_title">系统优化</string>
+    <string name="sys_core_optimize_meta">6 项可调</string>
+    <string name="sys_core_optimize_stat_items">可优化项</string>
+    <string name="sys_core_optimize_stat_reclaim">预计释放</string>
+    <string name="sys_core_optimize_stat_mem">当前可用</string>
+    <string name="sys_core_optimize_count">%1$d 项</string>
+    <string name="sys_core_optimize_selected">已选 %1$d 项</string>
+    <string name="sys_core_optimize_run">执行优化</string>
+    <string name="sys_core_optimize_running">正在执行…</string>
+    <string name="sys_core_optimize_progress">优化进度</string>
+    <string name="sys_core_optimize_progress_meta">%1$d%% · %2$d/%3$d 项</string>
+    <string name="sys_core_optimize_benefit">收益 · %1$s</string>
+    <string name="sys_core_optimize_risk">风险 · %1$s</string>
+    <string name="sys_core_optimize_rollback">回滚 · %1$s</string>
+    <string name="sys_core_optimize_unavailable">不可用</string>
+    <string name="sys_core_optimize_empty">没有可用的优化项</string>
+    <string name="sys_core_optimize_compare_title">前后对比</string>
+    <string name="sys_core_optimize_compare_mem">可用内存</string>
+    <string name="sys_core_optimize_compare_used">已用存储（/data）</string>
+    <string name="sys_core_optimize_compare_disabled">已禁用预装组件</string>
+    <string name="sys_core_optimize_compare_failed">前后对比读取失败：%1$s</string>
+    <string name="sys_core_optimize_status_running">进行中</string>
+    <string name="sys_core_optimize_status_ok">完成</string>
+    <string name="sys_core_optimize_status_failed">失败</string>
+    <string name="sys_core_optimize_status_skipped">跳过</string>
+    <string name="sys_core_optimize_done_summary">已完成 %1$d/%2$d 项</string>
+    <string name="sys_core_optimize_failed_summary">失败 %1$d 项</string>
+
+    <!-- 空间清理 -->
+    <string name="sys_core_clean_title">空间清理</string>
+    <string name="sys_core_clean_meta">缓存 · 残留 · 日志</string>
+    <string name="sys_core_clean_not_scanned">尚未扫描</string>
+    <string name="sys_core_clean_scanned">扫描完成</string>
+    <string name="sys_core_clean_hint">扫描 /data 与 /sdcard 中的缓存、日志和残留安装包。</string>
+    <string name="sys_core_clean_scan_title">扫描目录</string>
+    <string name="sys_core_clean_scanning">正在扫描…</string>
+    <string name="sys_core_clean_results">扫描结果</string>
+    <string name="sys_core_clean_results_meta">已选 %1$d 项 · 共 %2$s</string>
+    <string name="sys_core_clean_total">共 %1$s</string>
+    <string name="sys_core_clean_files">%1$d 个文件</string>
+    <string name="sys_core_clean_more_paths">仅显示前 %1$d 个路径</string>
+    <string name="sys_core_clean_no_samples">没有可展示的样本路径</string>
+    <string name="sys_core_clean_selected_total">已选 %1$d 项 · %2$s</string>
+    <string name="sys_core_clean_run">清理选中</string>
+    <string name="sys_core_clean_running">正在清理…</string>
+    <string name="sys_core_clean_progress">清理进度</string>
+    <string name="sys_core_clean_reported_total">释放合计（执行回报）</string>
+    <string name="sys_core_clean_verified_total">释放合计（du 回读）</string>
+    <string name="sys_core_clean_du_line">du 回读 %1$s → %2$s</string>
+    <string name="sys_core_clean_du_diff">差值 %1$s</string>
+    <string name="sys_core_clean_du_failed">du 回读失败：%1$s</string>
+    <string name="sys_core_clean_empty">没有可清理的分类</string>
+    <string name="sys_core_clean_expand_paths">展开前 %1$d 个路径</string>
+    <string name="sys_core_clean_collapse_paths">收起路径</string>
+
+    <!-- 清理脚本 -->
+    <string name="sys_core_scripts_title">清理脚本</string>
+    <string name="sys_core_scripts_meta">%1$d 个内置</string>
+    <string name="sys_core_scripts_install">正在准备脚本…</string>
+    <string name="sys_core_scripts_run">执行</string>
+    <string name="sys_core_scripts_running">执行中</string>
+    <string name="sys_core_scripts_empty">内置脚本清单为空</string>
+    <string name="sys_core_scripts_estimate">预估 %1$s</string>
+    <string name="sys_core_scripts_last_result">上次结果：%1$s</string>
+    <string name="sys_core_scripts_last_unknown">上次结果未知</string>
+    <string name="sys_core_scripts_install_failed">脚本安装失败：%1$s</string>
+    <string name="sys_core_scripts_log_title">执行日志</string>
+    <string name="sys_core_scripts_log_meta">仅保留本次会话</string>
+    <string name="sys_core_scripts_log_empty">尚无执行记录。执行脚本后会在此显示命令与结果。</string>
+    <string name="sys_core_scripts_result_ok">退出码 %1$d · 释放 %2$s</string>
+    <string name="sys_core_scripts_result_exit">退出码 %1$d · %2$s</string>
+    <string name="sys_core_scripts_result_done">XG_DONE · 释放 %1$s</string>
+    <string name="sys_core_scripts_done_missing">未检测到 XG_DONE 标记</string>
+    <string name="sys_core_scripts_run_failed">脚本执行失败：%1$s</string>
+    <string name="sys_core_scripts_marker">XG_DONE</string>
+
+    <!-- 进程 -->
+    <string name="sys_core_processes_title">进程</string>
+    <string name="sys_core_processes_meta">%1$d 个进程 · %2$d 组</string>
+    <string name="sys_core_processes_group_all">全部</string>
+    <string name="sys_core_processes_group_foreground">前台</string>
+    <string name="sys_core_processes_group_visible">可见</string>
+    <string name="sys_core_processes_group_service">服务</string>
+    <string name="sys_core_processes_group_cached">缓存</string>
+    <string name="sys_core_processes_group_system">系统</string>
+    <string name="sys_core_processes_group_kernel">内核</string>
+    <string name="sys_core_processes_selected">已选 %1$d 个</string>
+    <string name="sys_core_processes_stop_selected">结束选中</string>
+    <string name="sys_core_processes_note">全部进程，含系统服务与内核线程；点击任一行展开详情。</string>
+    <string name="sys_core_processes_row_meta">PID %1$d · UID %2$d · RSS %3$s · %4$s</string>
+    <string name="sys_core_processes_protected">受保护</string>
+    <string name="sys_core_processes_protected_lock">受保护进程：%1$s</string>
+    <string name="sys_core_processes_protected_reason">受保护，禁止结束：%1$s</string>
+    <string name="sys_core_processes_expand_detail">展开详情</string>
+    <string name="sys_core_processes_collapse_detail">收起详情</string>
+    <string name="sys_core_processes_detail_ppid">父进程</string>
+    <string name="sys_core_processes_detail_user">用户</string>
+    <string name="sys_core_processes_detail_vsz">虚拟内存</string>
+    <string name="sys_core_processes_detail_threads">线程数</string>
+    <string name="sys_core_processes_detail_stat">状态</string>
+    <string name="sys_core_processes_detail_oom">oom_adj</string>
+    <string name="sys_core_processes_detail_group">分组</string>
+    <string name="sys_core_processes_detail_selinux">SELinux</string>
+    <string name="sys_core_processes_detail_start">启动时刻</string>
+    <string name="sys_core_processes_detail_cmdline">命令行</string>
+    <string name="sys_core_processes_detail_cgroup">cgroup</string>
+    <string name="sys_core_processes_stop">结束进程</string>
+    <string name="sys_core_processes_force_stop">强制结束</string>
+    <string name="sys_core_processes_confirm_title">结束进程</string>
+    <string name="sys_core_processes_confirm_body">将结束 %1$s。进程可能被系统重新拉起。</string>
+    <string name="sys_core_processes_confirm_force_body">将强制结束 %1$s（kill -9）。未保存的状态会丢失，进程可能被系统重新拉起。</string>
+    <string name="sys_core_processes_confirm_many">选中的 %1$d 个进程</string>
+    <string name="sys_core_processes_confirm_action">结束</string>
+    <string name="sys_core_processes_confirm_force_action">强制结束</string>
+    <string name="sys_core_processes_cancel">取消</string>
+    <string name="sys_core_processes_stop_progress">结束进程</string>
+    <string name="sys_core_processes_stop_summary">成功 %1$d · 失败 %2$d</string>
+    <string name="sys_core_processes_stopping">正在结束 %1$s</string>
+    <string name="sys_core_processes_empty">未读取到进程</string>
+    <string name="sys_core_processes_empty_group">该分组没有进程</string>
+    <string name="sys_core_processes_show_all_groups">显示全部</string>
+
+    <!-- IA v2 系统总览：8 个入口卡（IA-V2 §1.3）。页面标题/状态摘要由子页头与徽标承担。 -->
+    <string name="sys_core_overview_perf">性能</string>
+    <string name="sys_core_overview_display">显示</string>
+    <string name="sys_core_overview_flash">刷入</string>
+    <string name="sys_core_overview_terminal">终端</string>
+    <string name="sys_core_overview_desc_optimize">缓存、内存、存储、动画、ZRAM 与预装组件六项优化</string>
+    <string name="sys_core_overview_desc_clean">按白名单清理应用缓存、缩略图、日志与临时文件</string>
+    <string name="sys_core_overview_desc_scripts">7 个内置脚本：五款游戏清理、资源清理与平安自查</string>
+    <string name="sys_core_overview_desc_perf">CPU/GPU 频率、调度、温控、ZRAM 与运行模式</string>
+    <string name="sys_core_overview_desc_display">分辨率、DPI、刷新率、色温与厂商显示能力</string>
+    <string name="sys_core_overview_desc_flash">A/B 槽位、分区枚举与镜像校验写入</string>
+    <string name="sys_core_overview_desc_processes">全量进程六分组、详情与受保护的结束流程</string>
+    <string name="sys_core_overview_desc_terminal">常驻 Root 终端会话与实时输出</string>
+    <string name="sys_core_overview_status_ready">已就绪</string>
+    <string name="sys_core_overview_status_checking">检测中</string>
+    <string name="sys_core_overview_status_needs_root">需 Root</string>
+    <string name="sys_core_overview_status_unsupported">不支持</string>
+    <string name="sys_core_security_group">安全能力</string>
+    <string name="sys_core_security_group_meta">4 项</string>
+    <string name="sys_core_security_matrix_title">权限矩阵</string>
+    <string name="sys_core_security_matrix_desc">按应用设置相机、麦克风、位置等隐私权限（AppOps）</string>
+    <string name="sys_core_security_a11y_title">无障碍锁定</string>
+    <string name="sys_core_security_a11y_desc">锁定无障碍服务白名单，阻止应用静默开启</string>
+    <string name="sys_core_security_autostart_title">开机自启监控</string>
+    <string name="sys_core_security_autostart_desc">管理开机广播接收器，阻止应用随系统自启</string>
+    <string name="sys_core_security_ads_title">广告 / 域名拦截</string>
+    <string name="sys_core_security_ads_desc">扫描广告组件并提供 hosts 域名过滤</string>
+</resources>

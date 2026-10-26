@@ -1,0 +1,168 @@
+# xg-toolbox 内置广告/跟踪域名（每行一个；支持 `0.0.0.0 domain` 或纯 domain）
+# 仅用于本机 hosts 拦截；可按需增删，重新应用后生效
+# --- Google / DoubleClick ---
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 adservice.google.com
+0.0.0.0 adservice.google.com.hk
+0.0.0.0 www.googleadservices.com
+0.0.0.0 googleadservices.com
+0.0.0.0 partner.googleadservices.com
+0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 cm.g.doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 static.doubleclick.net
+0.0.0.0 adclick.g.doubleclick.net
+# --- ByteDance / Pangle ---
+0.0.0.0 pangolin-sdk-toutiao.com
+0.0.0.0 pangle.io
+0.0.0.0 api-access.pangolin-sdk-toutiao.com
+0.0.0.0 gromore.pangolin-sdk-toutiao.com
+0.0.0.0 pglstat.pangle.io
+0.0.0.0 sdk-api.pangle.io
+0.0.0.0 ad.pangle.io
+0.0.0.0 log-api.pangolin-sdk-toutiao.com
+0.0.0.0 tlog.pangolin-sdk-toutiao.com
+0.0.0.0 byteoversea.com
+0.0.0.0 api.byteoversea.com
+0.0.0.0 sf16-static.i18n-pglstatp.com
+0.0.0.0 i18n-pglstatp.com
+0.0.0.0 ads-sg.tiktok.com
+0.0.0.0 analytics.tiktok.com
+0.0.0.0 log.tiktokv.com
+0.0.0.0 api.tiktokv.com
+# --- Tencent GDT ---
+0.0.0.0 gdt.qq.com
+0.0.0.0 e.qq.com
+0.0.0.0 mi.gdt.qq.com
+0.0.0.0 v.gdt.qq.com
+0.0.0.0 ad.qq.com
+0.0.0.0 ads.qq.com
+0.0.0.0 pgdt.gtimg.cn
+0.0.0.0 pingjs.qq.com
+0.0.0.0 pingfore.qq.com
+# --- Baidu ---
+0.0.0.0 mobads.baidu.com
+0.0.0.0 mobads.g.baidu.com
+0.0.0.0 cbjs.baidu.com
+0.0.0.0 eclick.baidu.com
+0.0.0.0 pos.baidu.com
+0.0.0.0 cpro.baidu.com
+0.0.0.0 hm.baidu.com
+# --- Alibaba / UMeng ---
+0.0.0.0 ulogs.umeng.com
+0.0.0.0 ulogs.umengcloud.com
+0.0.0.0 uop.umeng.com
+0.0.0.0 umeng.com
+0.0.0.0 umengcloud.com
+0.0.0.0 alog.umeng.com
+0.0.0.0 adash.umengcloud.com
+0.0.0.0 sdk.open.phone.igexin.com
+# --- AppLovin ---
+0.0.0.0 api.applovin.com
+0.0.0.0 assets.applovin.com
+0.0.0.0 d.applovin.com
+0.0.0.0 e.applovin.com
+0.0.0.0 r.applovin.com
+0.0.0.0 rt.applovin.com
+0.0.0.0 prod-a.applovin.com
+0.0.0.0 prod-bid.applovin.com
+# --- Unity Ads ---
+0.0.0.0 api.unityads.unity3d.com
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 webview.unityads.unity3d.com
+0.0.0.0 ads.unity3d.com
+0.0.0.0 au.unityads.unity3d.com
+# --- Facebook Audience Network ---
+0.0.0.0 an.facebook.com
+0.0.0.0 graph.facebook.com
+0.0.0.0 pixel.facebook.com
+0.0.0.0 ads.facebook.com
+0.0.0.0 cdn.fbsbx.com
+0.0.0.0 biz.fbsbx.com
+# --- ironSource / Supersonic ---
+0.0.0.0 api.ironsrc.com
+0.0.0.0 adv.ironsrc.com
+0.0.0.0 sdk.ironsrc.com
+0.0.0.0 is-gateway.supersonicads.com
+0.0.0.0 init.supersonicads.com
+0.0.0.0 ow-server.supersonicads.com
+# --- Mintegral / Mbridge ---
+0.0.0.0 api.mintegral.com
+0.0.0.0 cdn.mintegral.com
+0.0.0.0 ads.mintegral.com
+0.0.0.0 hk.mintegral.com
+0.0.0.0 sg.mintegral.com
+0.0.0.0 mb.mbridge.com
+0.0.0.0 api.mbridge.com
+0.0.0.0 cdn.mbridge.com
+# --- AnyThink / Tapjoy / Vungle / Chartboost / AdColony ---
+0.0.0.0 api.anythinktech.com
+0.0.0.0 cdn.anythinktech.com
+0.0.0.0 ads.anythinktech.com
+0.0.0.0 ws.tapjoyads.com
+0.0.0.0 api.tapjoy.com
+0.0.0.0 ads.tapjoy.com
+0.0.0.0 cdn.vungle.com
+0.0.0.0 api.vungle.com
+0.0.0.0 ads.vungle.com
+0.0.0.0 live.chartboost.com
+0.0.0.0 ads.chartboost.com
+0.0.0.0 api.chartboost.com
+0.0.0.0 adc3-launch.adcolony.com
+0.0.0.0 ads.adcolony.com
+0.0.0.0 api.adcolony.com
+# --- InMobi / MoPub legacy / Amazon Ads / Moloco ---
+0.0.0.0 api.inmobi.com
+0.0.0.0 ads.inmobi.com
+0.0.0.0 sdk.inmobi.com
+0.0.0.0 ads.mopub.com
+0.0.0.0 app.mopub.com
+0.0.0.0 mads.amazon.com
+0.0.0.0 aax.amazon-adsystem.com
+0.0.0.0 c.amazon-adsystem.com
+0.0.0.0 api.moloco.com
+0.0.0.0 ads.moloco.com
+# --- Kwai / Kwad / Sigmob / Tanx ---
+0.0.0.0 ad.kwad.com
+0.0.0.0 api.kwad.com
+0.0.0.0 cdn.kwad.com
+0.0.0.0 logs.kwad.com
+0.0.0.0 api.sigmob.cn
+0.0.0.0 ads.sigmob.cn
+0.0.0.0 sdk.tanx.com
+0.0.0.0 ad.tanx.com
+0.0.0.0 tanx.com
+# --- 通用移动广告/归因跟踪 ---
+0.0.0.0 appsflyer.com
+0.0.0.0 api.appsflyer.com
+0.0.0.0 att.appsflyer.com
+0.0.0.0 launcher.appsflyer.com
+0.0.0.0 adjust.com
+0.0.0.0 app.adjust.com
+0.0.0.0 api.adjust.com
+0.0.0.0 branch.io
+0.0.0.0 api.branch.io
+0.0.0.0 app-measurement.com
+0.0.0.0 firebaseinstallations.googleapis.com
+0.0.0.0 ads.pubmatic.com
+0.0.0.0 ib.adnxs.com
+0.0.0.0 secure.adnxs.com
+0.0.0.0 criteo.com
+0.0.0.0 api.criteo.com
+0.0.0.0 gum.criteo.com
+0.0.0.0 dis.criteo.com
+0.0.0.0 adnxs.com
+0.0.0.0 adsrvr.org
+0.0.0.0 match.adsrvr.org
+0.0.0.0 rubiconproject.com
+0.0.0.0 ads.rubiconproject.com
+0.0.0.0 smartadserver.com
+0.0.0.0 api.smartadserver.com
+0.0.0.0 teads.tv
+0.0.0.0 api.teads.tv
+0.0.0.0 ads.tremorhub.com
+0.0.0.0 td.tremorhub.com

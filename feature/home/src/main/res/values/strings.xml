@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 机况页文案（前缀 home_，避免与其他模块资源重名；DOMAIN-APIS §7）。 -->
+<resources>
+    <string name="home_title">机况</string>
+    <string name="home_meta">实时 · 只读</string>
+    <string name="home_brand_name">小骨工具箱</string>
+    <string name="home_brand_version">1.0.0 阅览版</string>
+    <string name="home_brand_author">作者：小骨</string>
+    <string name="home_brand_channel_label">官方频道</string>
+    <string name="home_brand_channel">@Xiaogu_zcr521</string>
+    <string name="home_menu_description">重启菜单</string>
+    <string name="home_menu_label">重启设备</string>
+
+    <string name="home_metrics_title">运行指标</string>
+    <string name="home_metrics_meta">采样间隔 1 秒</string>
+    <string name="home_metrics_badge">只读</string>
+    <string name="home_metric_cpu">CPU</string>
+    <string name="home_metric_gpu">GPU</string>
+    <string name="home_metric_memory">内存</string>
+    <string name="home_metric_temperature">温度</string>
+    <string name="home_metric_battery">电池</string>
+    <string name="home_metric_storage">存储</string>
+    <string name="home_metric_hint_cores">%1$d 核</string>
+    <string name="home_metric_hint_cores_ghz">%1$d 核 · %2$s GHz</string>
+    <string name="home_metric_hint_mem">%1$s / %2$s</string>
+    <string name="home_metric_hint_battery_temp">电池 %1$s °C</string>
+    <string name="home_battery_charging">充电中</string>
+    <string name="home_battery_discharging">未充电</string>
+    <string name="home_battery_hint_charging">充电中 · %1$d mA</string>
+    <string name="home_battery_hint_discharging">未充电 · %1$d mA</string>
+
+    <string name="home_risk_title">风险提示</string>
+    <string name="home_risk_count">%1$d 项</string>
+    <string name="home_risk_action">查看</string>
+    <string name="home_risk_empty">未发现风险项</string>
+    <string name="home_risk_failed_generic">风险检测失败</string>
+
+    <string name="home_status_title">系统状态</string>
+    <string name="home_status_version">系统版本</string>
+    <string name="home_status_patch">安全补丁</string>
+    <string name="home_status_selinux">SELinux</string>
+    <string name="home_status_root">Root 状态</string>
+    <string name="home_status_root_granted">已授权 · %1$s</string>
+    <string name="home_status_root_unknown">检测中…</string>
+    <string name="home_status_root_denied">未授权</string>
+    <string name="home_status_root_unsupported">不支持</string>
+    <string name="home_status_root_plain">已授权</string>
+    <string name="home_status_unavailable">不可用</string>
+    <string name="home_status_limited">受限</string>
+    <string name="home_status_needs_root">需 Root</string>
+    <string name="home_status_masked">已脱敏</string>
+
+    <string name="home_recent_title">最近执行</string>
+    <string name="home_recent_empty">暂无执行记录</string>
+    <string name="home_recent_commands">命令</string>
+    <string name="home_recent_message">说明</string>
+    <string name="home_recent_no_commands">未记录命令</string>
+    <string name="home_recent_result_ok">成功</string>
+    <string name="home_recent_result_failed">失败</string>
+    <string name="home_recent_result_rolled_back">已回滚</string>
+    <string name="home_recent_load_failed">最近执行读取失败</string>
+
+    <string name="home_reboot_confirm_title">重启到%1$s？</string>
+    <string name="home_reboot_confirm">重启</string>
+    <string name="home_reboot_cancel">取消</string>
+    <string name="home_reboot_sent">已发送重启命令，设备即将重启</string>
+
+    <string name="home_summary_unlocked">已解锁</string>
+    <string name="home_summary_rooted">已 Root</string>
+    <string name="home_summary_loading">读取中…</string>
+    <string name="home_android_prefix">Android %1$s</string>
+    <string name="home_load_failed">设备信息采集失败</string>
+    <string name="home_empty_device">设备信息不可用</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="root_guard_channel_name">Root 守护服务</string>
+    <string name="root_guard_channel_description">用于用户开启的 Root 保活与开机自启动</string>
+    <string name="root_guard_notification_title">XG Toolbox 后台守护服务</string>
+    <string name="root_guard_notification_text">自启动/保活按用户设置运行；点击打开应用</string>
+</resources>
