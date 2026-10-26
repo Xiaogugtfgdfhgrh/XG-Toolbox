@@ -253,7 +253,7 @@ class AppRepository @Inject constructor(
             return@withContext XgResult.Err(
                 ErrorCode.ERR_BACKUP_FAILED,
                 message,
-                "契约 uninstall(pkg) 无 force 参数，未提供继续选项；备份目录上限见 DEVELOPMENT.md §6.5",
+                "卸载操作未提供继续选项，已中止",
             )
         }
 
